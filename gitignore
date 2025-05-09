@@ -1,0 +1,14 @@
+# Ignore binary files
+argocd-linux-amd64
+
+# Ignore large archives
+*.tar.gz
+*.zip
+
+# Ignore Kubernetes generated files
+.kustomize/
+*.log
+
+# Ignore temporary files and editor backups
+*.swp
+.DS_Store
